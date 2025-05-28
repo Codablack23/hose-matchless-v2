@@ -1,0 +1,17 @@
+<svg width="82" height="97" viewBox="0 0 82 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="41" cy="52.5" rx="41" ry="44.5" fill="#FFD700"/>
+<ellipse cx="41" cy="44.5" rx="41" ry="44.5" fill="#002D62"/>
+<g clip-path="url(#clip0_106_1756)">
+<mask id="mask0_106_1756" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="23" y="27" width="36" height="36">
+<path d="M23 27H59V63H23V27Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_106_1756)">
+<path d="M51.35 28.6865H56.8709L44.8109 42.5054L59 61.3128H47.8914L39.1846 49.9085L29.2331 61.3128H23.7071L36.6054 46.5271L23 28.6891H34.3914L42.2497 39.1111L51.35 28.6865ZM49.4086 58.0008H52.4686L32.72 31.8262H29.4389L49.4086 58.0008Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_106_1756">
+<rect width="36" height="36" fill="white" transform="translate(23 27)"/>
+</clipPath>
+</defs>
+</svg>
