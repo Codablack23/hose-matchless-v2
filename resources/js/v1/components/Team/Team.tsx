@@ -12,7 +12,7 @@ export default function Team() {
 
 
 return (
-    <div className="md:mt-[500px] mt-20 md:mx-[80px] mx-6" id="tean">
+    <div className="md:mt-100px mt-20 md:mx-[80px] mx-6" id="tean">
         <h1 className="md:text-[40px] py-6 text-[32px] font-extrabold">Meet the Team</h1>
 
     <div>
@@ -64,7 +64,7 @@ return (
                 <p>veratafon3@gmail.com is a dedicated TikTok Creator Network Manager helping creators across North America grow and succeed. She specializes in teaching monetization, account growth, and leveling up your TikTok journey. With a sharp eye for trends and engagement, she guides influencers through customized strategies and brand collaborations.</p>
                 <div className="flex mt-10 gap-2 items-center max-sm:w-[40px]">
                   <a href="https://www.tiktok.com/@veratafon3gmail.com?_t=ZM-8vMPySyJvb4&_r=1 " target="_blank" rel="noopener noreferrer">
-                      <img className="team" src="/assets/svg/tiktok-white.svg" alt="tiktok" />  
+                      <img className="team" src="/assets/svg/tiktok-white.svg" alt="tiktok" />
                   </a>
                   <p className="max-sm:text-[14px] ml-auto w-96">Creator Network <a href="https://www.tiktok.com/t/ZMBfVrpMa/">[Join Here]</a></p>
                 </div>
@@ -78,7 +78,7 @@ return (
         <div className={`mySlides fade ${slideIndex === 3 ? 'block' : 'hidden'} `}>
         <div className="md:flex md:flex-row flex-col items-center gap-10 py-24 px-10 md:mt-2 rounded-xl bg-[#002D62]">
             <div className="text-[#ffff] text-[20px]">
-                <p>Baba Rex is dedicated, organized, and eager to learn. He communicates effectively in groups and one-on-one, listens well, embraces new ideas, and excels in solving social media challenges.  
+                <p>Baba Rex is dedicated, organized, and eager to learn. He communicates effectively in groups and one-on-one, listens well, embraces new ideas, and excels in solving social media challenges.
                 </p>
                 <div className="flex mt-10 gap-2 items-center max-sm:w-[40px]">
                   <a href="https://www.tiktok.com/@onyeozi_rex?_t=8rXLCZmamgq&_r=1" target="_blank" rel="noopener noreferrer">
