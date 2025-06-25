@@ -10,10 +10,10 @@ export default function Hero() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length); 
-    }, 5000); 
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
+    }, 5000);
 
-    return () => clearInterval(interval); 
+    return () => clearInterval(interval);
   }, [slides.length]);
 
 
@@ -24,7 +24,7 @@ export default function Hero() {
   return (
     <div className="main-container" id="home">
 
-      <div className="relative flex flex-col-reverse md:flex-row gap-20 items-start">
+      <div className="relative flex flex-col-reverse items-start gap-20 md:flex-row">
         <div>
           <div className="md:text-[50px] text-[36px]">
             <span className="font-extrabold">Empowering <br /> Talent</span> and <br />
@@ -51,6 +51,12 @@ export default function Hero() {
                 </a>
               <div className="overlay" ></div>
             </div>
+            <div className="relative">
+               <a href="https://www.tiktok.com/t/ZMSHyxHEB/">
+                  <button className="btn2 max-w-[200px]">Join Our Creator Network ( GERMANY)</button>
+                </a>
+              <div className="overlay" ></div>
+            </div>
           </div>
         </div>
 
@@ -65,7 +71,7 @@ export default function Hero() {
 
       </div>
 
-      <div 
+      <div
         className="sticky-btn md:w-[82px] md:h-[89px] w-[49px] h-[54px] p-3 z-10 md:p-7 rounded-full sticky bg-[#002D62] cursor-pointer"
         onClick={scrollToTop}
       >
