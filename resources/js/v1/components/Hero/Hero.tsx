@@ -57,6 +57,18 @@ export default function Hero() {
                 </a>
               <div className="overlay" ></div>
             </div>
+            <div className="relative">
+               <a href="https://www.tiktok.com/t/ZMAmVQAnH/">
+                  <button className="btn2 max-w-[200px]">JOIN SOLOMON ISLANDS & CONGO AGENCY </button>
+                </a>
+              <div className="overlay" ></div>
+            </div>
+            <div className="relative">
+               <a href="https://www.tiktok.com/t/ZMAm3cETy/">
+                  <button className="btn2 max-w-[200px]">Join Our Creator Network ( FRANCE)</button>
+                </a>
+              <div className="overlay" ></div>
+            </div>
           </div>
         </div>
 
